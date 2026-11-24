@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Turrón Go Home! · Privacidad</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: amable, claro, breve; un juego familiar que no toca datos
+   IDEA: un letrero de madera junto a la playa de Mejillones
+   PICTURE: franja de cielo y arena con huellas que llevan a la casita
+   COLOUR and TYPE: cielo #b7ecf5, arena #f6d9aa, naranja pañuelo #e4572e; Baloo 2 + Nunito
+   LAYOUT: una columna de lectura, resumen arriba, secciones con títulos que dicen su punto */
+:root{color-scheme:light dark;--bg:light-dark(#fffaf0,#14212b);--ink:light-dark(#18354b,#eaf3f6);--soft:light-dark(#4b6476,#a9bfcc);--sky:light-dark(#b7ecf5,#1d3a4c);--sand:light-dark(#f6d9aa,#3a2f22);--acc:light-dark(#d2481f,#ff8a5c);--card:light-dark(#ffffff,#1b2c38);--line:light-dark(#ecdcc0,#2c4252)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Nunito,system-ui,sans-serif;overflow-x:clip}
+.hero{background:linear-gradient(var(--sky) 0 58%,var(--sand) 58% 100%);padding:clamp(28px,5vw,56px) max(5vw,16px) 0}
+.hero-in{max-width:760px;margin:auto;position:relative}
+h1{font:700 clamp(32px,6vw,50px)/1.05 "Baloo 2",system-ui,sans-serif;margin:0 0 6px;text-wrap:balance}
+.sub{margin:0;color:var(--soft);font-weight:700}
+.trail{display:block;width:100%;height:120px;margin-top:10px}
+main{max-width:760px;margin:auto;padding:clamp(24px,4vw,48px) max(5vw,16px) 64px}
+.summary{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:20px 22px;margin:-6px 0 32px;box-shadow:0 6px 0 var(--line)}
+.summary h2{margin-top:0}
+.summary ul{margin:0;padding-left:1.2em}
+h2{font:700 24px/1.2 "Baloo 2",system-ui,sans-serif;margin:34px 0 8px}
+p,li{max-width:68ch}
+.meta{color:var(--soft);font-size:14px;margin-top:40px;border-top:1px solid var(--line);padding-top:14px}
+a{color:var(--acc)}
+.mail{font-weight:700;white-space:nowrap}
+@media(prefers-reduced-motion:no-preference){.paw{animation:pop .5s both}.paw:nth-of-type(2){animation-delay:.15s}.paw:nth-of-type(3){animation-delay:.3s}.paw:nth-of-type(4){animation-delay:.45s}.paw:nth-of-type(5){animation-delay:.6s}@keyframes pop{from{opacity:0;transform:scale(.4)}}}
+.paw{transform-box:fill-box;transform-origin:center}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="hero-in">
+  <h1>Política de privacidad de Turrón Go Home!</h1>
+  <p class="sub">Desarrollado por VibarachoKit · Vigente desde el 23 de noviembre de 2026</p>
+  <svg class="trail" viewBox="0 0 760 120" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+   <defs>
+    <g id="p"><ellipse cx="0" cy="6" rx="9" ry="8" fill="#b88a55"/><circle cx="-8" cy="-6" r="3.6" fill="#b88a55"/><circle cx="0" cy="-10" r="3.6" fill="#b88a55"/><circle cx="8" cy="-6" r="3.6" fill="#b88a55"/></g>
+   </defs>
+   <use class="paw" href="#p" x="60" y="96"/>
+   <use class="paw" href="#p" x="170" y="80"/>
+   <use class="paw" href="#p" x="290" y="98"/>
+   <use class="paw" href="#p" x="410" y="80"/>
+   <use class="paw" href="#p" x="530" y="96"/>
+   <g transform="translate(620 30)">
+    <ellipse cx="50" cy="88" rx="62" ry="8" fill="#000" opacity=".12"/>
+    <rect x="8" y="38" width="84" height="50" rx="4" fill="#fbecd2" stroke="#9a6a3a" stroke-width="3"/>
+    <path d="M0 42 L50 2 L100 42 Z" fill="#e4572e" stroke="#a93a1b" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M34 88 V62 a16 16 0 0 1 32 0 V88 Z" fill="#7a4a24"/>
+    <circle cx="50" cy="26" r="7" fill="#fff"/>
+   </g>
+  </svg>
+ </div>
+</header>
+<main>
+ <section class="summary">
+  <h2>En resumen</h2>
+  <ul>
+   <li>El juego <strong>no recopila, no envía y no comparte</strong> datos personales.</li>
+   <li>No usa cuentas, publicidad, analítica ni servicios de terceros.</li>
+   <li>Funciona sin conexión a internet.</li>
+   <li>Solo guarda tu progreso y tus ajustes <strong>dentro de tu propio teléfono</strong>.</li>
+  </ul>
+ </section>
+
+ <h2>Qué información se guarda en tu dispositivo</h2>
+ <p>Para que puedas continuar donde quedaste, el juego guarda en el almacenamiento local de la app los niveles completados, las estrellas obtenidas y tus preferencias (música, efectos de sonido, vibración, intro y tutorial). Esta información nunca sale de tu teléfono y no nos llega a nosotros ni a nadie más.</p>
+ <p>Puedes borrarla cuando quieras con la opción <em>Borrar progreso</em> en Ajustes, borrando los datos de la app desde los ajustes de Android o desinstalando el juego.</p>
+
+ <h2>Qué información no recopilamos</h2>
+ <p>No pedimos ni obtenemos tu nombre, correo, ubicación, contactos, fotos, identificadores del dispositivo ni ningún otro dato personal. El juego no solicita permisos especiales del teléfono. La vibración se usa solo como efecto del juego y puedes desactivarla en Ajustes.</p>
+
+ <h2>Servicios de terceros</h2>
+ <p>Turrón Go Home! no incluye anuncios, herramientas de analítica, inicio de sesión ni compras dentro de la app. Google Play, como tienda desde la que descargas el juego, puede procesar información según su propia política de privacidad, que puedes revisar en <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+
+ <h2>Niños y niñas</h2>
+ <p>El juego es apto para todo público. Como no recopila datos personales de nadie, tampoco recopila datos de menores de edad.</p>
+
+ <h2>Cambios a esta política</h2>
+ <p>Si una versión futura del juego cambiara la forma en que trata la información, actualizaremos esta página y la fecha de vigencia antes de publicar ese cambio.</p>
+
+ <h2>Contacto</h2>
+ <p>Si tienes dudas sobre esta política, escríbenos a <a class="mail" href="mailto:ibar.araya@gmail.com">ibar.araya@gmail.com</a>.</p>
+
+ <p class="meta">Turrón Go Home! · VibarachoKit · Mejillones, Chile</p>
+</main>
+</body>
+</html>
